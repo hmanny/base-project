@@ -225,6 +225,19 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin-left: 0;
 }
 
+/* apply a natural box layout model to all elements, but allowing components to change */
+/* line 3, ../sass/_general.scss */
+html {
+  box-sizing: border-box;
+}
+
+/* line 6, ../sass/_general.scss */
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 /* line 1, ../sass/_nav.scss */
 .top-menu {
   display: none;
@@ -243,9 +256,28 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 9, ../sass/_nav.scss */
 .top-menu ul li {
   display: inline-block;
+  position: relative;
+  padding: 0 35px;
+}
+/* line 13, ../sass/_nav.scss */
+.top-menu ul li ul {
+  display: none;
+}
+/* line 16, ../sass/_nav.scss */
+.top-menu ul li:hover ul {
+  position: absolute;
+  display: block;
+  width: 100%;
+  border: 1px;
+  background: #fff;
+}
+/* line 22, ../sass/_nav.scss */
+.top-menu ul li:hover ul li {
+  display: block;
+  padding: 0;
 }
 
-/* line 14, ../sass/_nav.scss */
+/* line 30, ../sass/_nav.scss */
 .mobile-menu {
   display: none;
   width: 100%;
@@ -254,13 +286,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-color: #fff;
   z-index: 10;
 }
-/* line 21, ../sass/_nav.scss */
+/* line 37, ../sass/_nav.scss */
 .mobile-menu ul {
   display: block;
   text-align: center;
 }
 
-/* line 26, ../sass/_nav.scss */
+/* line 42, ../sass/_nav.scss */
 .menu_button {
   z-index: 11;
   position: fixed;
@@ -273,17 +305,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   outline: none;
 }
 @media (min-width: 1024px) {
-  /* line 26, ../sass/_nav.scss */
+  /* line 42, ../sass/_nav.scss */
   .menu_button {
     display: none;
   }
 }
-/* line 39, ../sass/_nav.scss */
+/* line 55, ../sass/_nav.scss */
 .menu_button:before {
   font-family: 'icomoon';
   content: "\e600";
 }
-/* line 43, ../sass/_nav.scss */
+/* line 59, ../sass/_nav.scss */
 .menu_button.is-open:before {
   font-family: 'icomoon';
   content: "\e601";

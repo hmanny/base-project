@@ -8,6 +8,22 @@
         width: 100%;
         li {
             display: inline-block;
+            position: relative;
+            padding: 0 35px;
+            ul {
+                display: none;
+            }
+            &:hover ul {
+                position: absolute;
+                display: block;
+                width: 100%;
+                border: 1px;
+                background: $white;
+                li {
+                    display: block;
+                    padding: 0;
+                }
+            }
         }
     }
 }
