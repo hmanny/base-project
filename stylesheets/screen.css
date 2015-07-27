@@ -102,9 +102,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 8, ../sass/_grid.scss */
 .container {
-  max-width: 687px;
+  max-width: 1000px;
   margin: 0px auto;
-  padding: 0 12.5px 0 12.5px;
+  padding: 0 10px 0 10px;
   display: block;
 }
 
@@ -116,10 +116,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 @media (min-width: 960px) {
   /* line 30, ../sass/_grid.scss */
   .grid1 {
-    width: 8.94323%;
+    width: 6.24%;
     display: inline-block;
     vertical-align: top;
-    margin-left: 3.49345%;
+    margin-left: 1.92%;
     margin-bottom: 0;
   }
 }
@@ -132,10 +132,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 @media (min-width: 960px) {
   /* line 30, ../sass/_grid.scss */
   .grid2 {
-    width: 21.37991%;
+    width: 14.4%;
     display: inline-block;
     vertical-align: top;
-    margin-left: 3.49345%;
+    margin-left: 1.92%;
     margin-bottom: 0;
   }
 }
@@ -148,10 +148,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 @media (min-width: 960px) {
   /* line 30, ../sass/_grid.scss */
   .grid3 {
-    width: 33.81659%;
+    width: 22.56%;
     display: inline-block;
     vertical-align: top;
-    margin-left: 3.49345%;
+    margin-left: 1.92%;
     margin-bottom: 0;
   }
 }
@@ -164,10 +164,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 @media (min-width: 960px) {
   /* line 30, ../sass/_grid.scss */
   .grid4 {
-    width: 46.25328%;
+    width: 30.72%;
     display: inline-block;
     vertical-align: top;
-    margin-left: 3.49345%;
+    margin-left: 1.92%;
     margin-bottom: 0;
   }
 }
@@ -180,10 +180,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 @media (min-width: 960px) {
   /* line 30, ../sass/_grid.scss */
   .grid5 {
-    width: 58.68996%;
+    width: 38.88%;
     display: inline-block;
     vertical-align: top;
-    margin-left: 3.49345%;
+    margin-left: 1.92%;
     margin-bottom: 0;
   }
 }
@@ -196,10 +196,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 @media (min-width: 960px) {
   /* line 30, ../sass/_grid.scss */
   .grid6 {
-    width: 71.12664%;
+    width: 47.04%;
     display: inline-block;
     vertical-align: top;
-    margin-left: 3.49345%;
+    margin-left: 1.92%;
     margin-bottom: 0;
   }
 }
@@ -212,10 +212,74 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 @media (min-width: 960px) {
   /* line 30, ../sass/_grid.scss */
   .grid7 {
-    width: 83.56332%;
+    width: 55.2%;
     display: inline-block;
     vertical-align: top;
-    margin-left: 3.49345%;
+    margin-left: 1.92%;
+    margin-bottom: 0;
+  }
+}
+
+/* line 30, ../sass/_grid.scss */
+.grid8 {
+  width: 100%;
+  margin-bottom: 50px;
+}
+@media (min-width: 960px) {
+  /* line 30, ../sass/_grid.scss */
+  .grid8 {
+    width: 63.36%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 1.92%;
+    margin-bottom: 0;
+  }
+}
+
+/* line 30, ../sass/_grid.scss */
+.grid9 {
+  width: 100%;
+  margin-bottom: 50px;
+}
+@media (min-width: 960px) {
+  /* line 30, ../sass/_grid.scss */
+  .grid9 {
+    width: 71.52%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 1.92%;
+    margin-bottom: 0;
+  }
+}
+
+/* line 30, ../sass/_grid.scss */
+.grid10 {
+  width: 100%;
+  margin-bottom: 50px;
+}
+@media (min-width: 960px) {
+  /* line 30, ../sass/_grid.scss */
+  .grid10 {
+    width: 79.68%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 1.92%;
+    margin-bottom: 0;
+  }
+}
+
+/* line 30, ../sass/_grid.scss */
+.grid11 {
+  width: 100%;
+  margin-bottom: 50px;
+}
+@media (min-width: 960px) {
+  /* line 30, ../sass/_grid.scss */
+  .grid11 {
+    width: 87.84%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 1.92%;
     margin-bottom: 0;
   }
 }
