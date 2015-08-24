@@ -2,7 +2,7 @@ require 'compass/import-once/activate'
 # Require any additional compass plugins here.
 require 'breakpoint'
 # Set this to the root of your project when deployed:
-http_path = "/edgecumbe-health-co-uk/_img/"
+http_path = "/project-name-co-uk/_img/"
 css_dir = "stylesheets"
 sass_dir = "sass"
 images_dir = "images"
